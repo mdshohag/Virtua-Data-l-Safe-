@@ -1,0 +1,163 @@
+/* All styles created for demo purposes only, you may not need this for your project */
+.demo-button button {
+  margin-bottom: 5px;
+}
+
+.demo-icons li {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.demo-icons .lnr,
+.demo-icons .fa {
+  font-size: 28px;
+}
+.demo-icons .cssclass {
+  display: block;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.brand{
+	background-color: #DEE3E9;
+}
+ul.notification .table tr td> li {
+  
+	list-style:none;
+	font-size:17px;
+}
+ul.notification .table tr td{
+    color: #000;
+}
+ul.notification .table tr td> li a:hover{
+	color: #DEE3E9;
+}
+tr.btndefault{
+	
+	background:#DEE3E9 ;
+	
+}
+tr.btnwarning{
+	
+	background:#FFFFFF ;
+	
+}
+.tables{
+	width:100%;
+	font-family:serif;
+}
+
+.subject{
+	border: 1px solid #DEE3E9;
+	border-radius: 5px;
+	padding-top:2px;
+	padding-left:8px;
+	padding-bottom:10px;
+	padding-right:10px;
+	font-size:18px; 
+	font-family:serif;
+}
+.description{
+	border: 1px solid #DEE3E9;
+	padding-top:2px;
+	padding-left:8px;
+	padding-bottom:10px;
+	padding-right:10px;
+	font-size:16px; 
+	font-family:serif;
+	text-align: justify;
+	text-justify: inter-word;
+	line-height:28px;
+}
+
+.regard{
+	border: 1px solid #DEE3E9;
+	border-radius: 5px;
+	padding-top:2px;
+	padding-left:8px;
+	padding-bottom:10px;
+	padding-right:10px;
+	font-size:16px; 
+	font-family:serif;
+}
+.commentbox{
+	padding-top:30px;
+
+}
+.tab-content{
+
+width:100%;
+margin: 0 auto;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	
+padding-bottom:15px;
+
+}
+
+.rm {
+	
+    border-left:0px !important;
+    border-right:0px !important;
+	font-size:17px;
+}
+
+.left-edit h4 a:hover{
+background-color:#F3F3F3;
+
+width: 120px;
+
+}
+@media screen and (min-width: 1440px) {
+  
+.tab-image-g{
+	height:80px !important;
+}
+ .tab-image{	
+	height:80px;
+	
+}
+}
+.tab-image-g{
+	background-image: url('../img/tab.png');
+	width: 100%px;
+	height:50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.tab-image-g a{
+  margin-top: 10px;
+   position: absolute;
+   font-size:20px;
+   margin-left:7px;
+   
+ }  
+ .tab-image{
+	background-image: url('../img/tajb.png');
+	width: 100%px;
+	height:44px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+.tab-image a{
+  margin-top: 6px;
+   position: absolute;
+   font-size:22px;
+   margin-left:20px;
+   color:#003366;	
+}
+.defaults{
+color: #fff;
+background-color: #161617; 
+border-color: #494F57;
+}
+.agent{
+   pointer-events: none;
+
+}
+.right-div{
+
+}

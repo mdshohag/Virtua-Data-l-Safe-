@@ -1,0 +1,23 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^post_url/(.*)$ post_url/$1.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+RewriteRule ^access_code/access_code/(.*)$ access_code.php?access_code=$1 [L,QSA]
+
+#RewriteRule ^success.php/client/(.*)amount/(.*)firstname/(.*)lastname/(.*)$ success.php?client=$1&&amount=$2&&firstname=$3&&lastname=$4 [L,QSA]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/.*]+)$ $1.php
+
+
+Options All -Indexes
+ErrorDocument 403  http://localhost/
+ErrorDocument 404  http://localhost/benefits_hts/404.html
+
+#ErrorDocument 403  http://localhost/benefits_hts/
+#ErrorDocument 404  http://localhost/benefits_hts/404.html

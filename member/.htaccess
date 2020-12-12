@@ -1,0 +1,42 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^post_url/(.*)$ post_url/$1.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+RewriteRule ^access_code/access_code/(.*)$ access_code.php?access_code=$1 [L,QSA]
+RewriteRule ^upinformation/user_id/(.*)$ upinformation.php?user_id=$1 [L,QSA]
+RewriteRule ^insurance_details/insurance_details/(.*)$ insurance_details.php?insurance_details=$1 [L,QSA]
+RewriteRule ^insurance_asset_details/insurance_asset/(.*)$ insurance_asset_details.php?insurance_asset=$1 [L,QSA]
+RewriteRule ^insurance_bank_details/bank_details/(.*)$ insurance_bank_details.php?bank_details=$1 [L,QSA]
+RewriteRule ^testament_details/testament_id/(.*)$ testament_details.php?testament_id=$1 [L,QSA]
+RewriteRule ^authorized_details/author_id/(.*)$ authorized_details.php?author_id=$1 [L,QSA]
+RewriteRule ^view_client/emailid/(.*)view/(.*)$ view_client.php?emailid=$1&&view=$2 [L,QSA]
+RewriteRule ^uptvsinformation/email_data/(.*)user_data/(.*)$ uptvsinformation.php?email_data=$1&&user_data=$2 [L,QSA]
+RewriteRule ^agent_insurance_details/client/(.*)insurance_details/(.*)$ agent_insurance_details.php?client=$1&&insurance_details=$2 [L,QSA]
+RewriteRule ^agent_insurance_asset_details/client/(.*)insurance_asset/(.*)$ agent_insurance_asset_details.php?client=$1&&insurance_asset=$2 [L,QSA]
+RewriteRule ^agent_insurance_bank_details/client/(.*)bank_details/(.*)$ agent_insurance_bank_details.php?client=$1&&bank_details=$2 [L,QSA]
+RewriteRule ^agent_testament_details/client/(.*)testament_id/(.*)$ agent_testament_details.php?client=$1&&testament_id=$2 [L,QSA]
+RewriteRule ^agent_authorized_details/client/(.*)author_id/(.*)$ agent_authorized_details.php?client=$1&&author_id=$2 [L,QSA]
+RewriteRule ^agent_register_payment/client_id/(.*)$ agent_register_payment.php?client_id=$1 [L,QSA]
+RewriteRule ^agent_paymentlifetime/client_id/(.*)$ agent_paymentlifetime.php?client_id=$1 [L,QSA]
+RewriteRule ^agent_renewalpayment/client_id/(.*)$ agent_renewalpayment?client_id=$1 [L,QSA]
+
+
+
+
+#RewriteRule ^success.php/client/(.*)amount/(.*)firstname/(.*)lastname/(.*)$ success.php?client=$1&&amount=$2&&firstname=$3&&lastname=$4 [L,QSA]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/.*]+)$ $1.php
+
+
+Options All -Indexes
+ErrorDocument 403  http://localhost/member/
+ErrorDocument 404  http://localhost/benefits_hts/member/404.html
+
+#ErrorDocument 403  http://localhost/benefits_hts/member/
+#ErrorDocument 404  http://localhost/benefits_hts/member/404.html

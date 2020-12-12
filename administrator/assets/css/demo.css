@@ -1,0 +1,170 @@
+/* All styles created for demo purposes only, you may not need this for your project */
+.demo-button button {
+  margin-bottom: 5px;
+}
+
+.demo-icons li {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.demo-icons .lnr,
+.demo-icons .fa {
+  font-size: 28px;
+}
+.demo-icons .cssclass {
+  display: block;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.brand{
+	background-color: #DEE3E9;
+}
+ul.notification .table tr td> li {
+  
+	list-style:none;
+	font-size:17px;
+}
+ul.notification .table tr td{
+    color: #000;
+}
+ul.notification .table tr td> li a:hover{
+	color: #DEE3E9;
+}
+tr.btndefault{
+	
+	background:#DEE3E9 ;
+	
+}
+tr.btnwarning{
+	
+	background:#FFFFFF ;
+	
+}
+.tables{
+	width:100%;
+	font-family:serif;
+}
+
+.subject{
+	border: 1px solid #DEE3E9;
+	border-radius: 5px;
+	padding-top:2px;
+	padding-left:8px;
+	padding-bottom:10px;
+	padding-right:10px;
+	font-size:18px; 
+	font-family:serif;
+}
+.description{
+	border: 1px solid #DEE3E9;
+	padding-top:2px;
+	padding-left:8px;
+	padding-bottom:10px;
+	padding-right:10px;
+	font-size:16px; 
+	font-family:serif;
+	text-align: justify;
+	text-justify: inter-word;
+	line-height:28px;
+}
+
+.regard{
+	border: 1px solid #DEE3E9;
+	border-radius: 5px;
+	padding-top:2px;
+	padding-left:8px;
+	padding-bottom:10px;
+	padding-right:10px;
+	font-size:16px; 
+	font-family:serif;
+}
+.commentbox{
+	padding-top:30px;
+
+}
+.agent_deactive{
+margin-bottom:2px;
+}
+.tvs_id{
+margin-top:2px;
+margin-bottom:2px;
+}
+.insurance_agent_delete{
+margin-top:2px;
+}
+.btn-sm{
+margin-top:2px;
+}
+
+@media all and (min-width:481px)and (max-width:768px){
+
+.rm thead{font-size:13px !important;}
+.rm {font-size:13px !important; }
+.panel-body  table.full tbody a{
+ display:none !important;
+}
+.panel-body  table.media tbody a{
+ display:block !important;
+ font-size:13px !important;
+}
+label{
+font-size:13px !important;
+margin-left:1px !important;
+}
+}
+@media all and (min-width:281px)and (max-width:480px){
+
+.rm thead{font-size:10px !important;}
+.rm {font-size:10px !important; }
+.panel-body  table.full tbody a{
+ display:none !important;
+}
+.panel-body  table.media tbody a{
+ display:block !important;
+ font-size:13px !important;
+}
+.panel-subtitle .right{
+padding-top:21px !important;
+}
+.content h1{
+font-size:16px !important;
+}
+
+label{
+font-size:13px !important;
+margin-left:1px !important;
+}
+::placeholder {
+    font-size:10px;
+}
+:-ms-input-placeholder { 
+   font-size:10px;
+}
+
+::-ms-input-placeholder { 
+    font-size:10px;
+}
+}
+@media all and (min-width:181px)and (max-width:280px){
+.rm thead{font-size:10px !important;}
+.rm {font-size:10px !important; }
+.panel-body  table.full tbody a{
+ display:none !important;
+}
+.panel-body  table.media tbody a{
+ display:block !important;
+ font-size:13px !important;
+}
+label{
+font-size:13px !important;
+}
+.content h1{
+font-size:16px !important;
+}
+
+}
+.panel-body  table.media tbody a{
+ display:none;
+ 
+}

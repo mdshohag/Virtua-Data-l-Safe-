@@ -1,0 +1,23 @@
+List Remove Life Time
+
+member
+index.php
+view_client.php
+
+admin
+ header.php
+agent_report.php
+agent_report_print.php
+agent_view_client.php
+individual_report.php
+individual_report.php
+annual_individual_report.php
+paymet_manage.php
+
+service.php Option 2: $399
+
+tbl_payment_fees delete lifetime
+
+delete comment code
+
+Delete- file add
